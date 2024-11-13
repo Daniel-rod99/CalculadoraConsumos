@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && git add . && git commit -m 'Actualización del proyecto' && git push"
   },
   "dependencies": {
     "react": "^18.3.1",
